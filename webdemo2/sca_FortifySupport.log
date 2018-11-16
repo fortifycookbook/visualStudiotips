@@ -1,0 +1,76 @@
+[2018-11-16 18:56:41.965 INFO  ]
+loggerConfig:
+   level:DEBUG
+   filename:C:\Users\fortify\AppData\Local\Fortify\sca18.2\log\sca.log
+   appendLogFile:false
+   installLoggingPrintStreams:true
+
+   logger:com.fortify.logging.log4j2.LoggerFactory marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-16 18:56:42.186 INFO  ]
+message suppression file not found C:\Program Files\Fortify\Fortify_SCA_and_Apps_18.20\Core\config\suppressions.json
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-16 18:56:42.191 INFO  ]
+0 suppressions loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-16 18:56:42.192 INFO  ]
+message level adjustment file not found: C:\Program Files\Fortify\Fortify_SCA_and_Apps_18.20\Core\config\levels.json
+   logger:com.fortify.logging.log4j2.LevelAdjuster marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-16 18:56:42.193 INFO  ]
+0 level adjustments loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-16 18:56:42.262 INFO  ]
+Fortify Static Code Analyzer 18.20.1071 (using JRE 1.8.0_181)
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=INFO_VERBOSE} NDC:[]
+[2018-11-16 18:56:42.262 INFO  ]
+Args:
+["-show-runtime-properties"]
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2018-11-16 18:56:42.263 INFO  ]
+VM Args:
+"-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx5368238080 -Xss16M"
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2018-11-16 18:56:42.364 DEBUG ]
+Enabling code generation: Data binding
+   logger:com.fortify.sca.cmd.SCAConfiguration marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG} NDC:[]
+[2018-11-16 18:56:42.366 DEBUG ]
+Enabling code generation: Event loops
+   logger:com.fortify.sca.cmd.SCAConfiguration marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG} NDC:[]
+[2018-11-16 18:56:42.369 DEBUG ]
+Enabling change notification transformer.
+   logger:com.fortify.sca.cmd.SCAConfiguration marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG} NDC:[]
+[2018-11-16 18:56:42.414 INFO  ]
+message id statistics:
+   id:        -1 total:        11 totalSuppressedCount:         0 scope:[]
+
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-16 18:56:42.414 INFO  ]
+logger:null  count:12
+   level:INFO count:9
+   level:DEBUG count:3
+logger:com.fortify.messaging.MessageSuppressor  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LevelAdjuster  count:1
+   level:INFO count:1
+logger:com.fortify.sca.cmd.CommandLine  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LoggerFactory  count:1
+   level:INFO count:1
+logger:com.fortify.sca.Main  count:3
+   level:INFO count:3
+logger:com.fortify.sca.cmd.SCAConfiguration  count:3
+   level:DEBUG count:3
+
+   logger:com.fortify.logging.LoggerStats marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
