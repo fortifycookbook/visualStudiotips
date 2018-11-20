@@ -1,0 +1,83 @@
+[2018-11-19 20:35:18.222 INFO  ]
+loggerConfig:
+   level:INFO
+   filename:err
+   appendLogFile:true
+   installLoggingPrintStreams:true
+
+   logger:com.fortify.logging.log4j2.LoggerFactory marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-19 20:35:18.425 INFO  ]
+message suppression file not found C:\Program Files\Fortify\Fortify_SCA_and_Apps_18.20\Core\config\suppressions.json
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-19 20:35:18.442 INFO  ]
+0 suppressions loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-19 20:35:18.442 INFO  ]
+message level adjustment file not found: C:\Program Files\Fortify\Fortify_SCA_and_Apps_18.20\Core\config\levels.json
+   logger:com.fortify.logging.log4j2.LevelAdjuster marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-19 20:35:18.442 INFO  ]
+0 level adjustments loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2018-11-19 20:35:18.800 INFO  ]
+Fortify Static Code Analyzer 18.20.1071 (using JRE 1.8.0_181)
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=INFO_VERBOSE} NDC:[]
+[2018-11-19 20:35:18.800 INFO  ]
+Args:
+["-b", "DemoDotNet3.sln", ".", "-logfile", "err"]
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2018-11-19 20:35:18.800 INFO  ]
+VM Args:
+"-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx5368238080 -Xss16M"
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2018-11-19 20:35:19.690 INFO  ]
+ASP.NET Translation: Translating 1 ASP.Net files
+   logger:com.fortify.frontend.translator.dotnet.DotNetTranslator marker:DEV thread:sourceanalyzer-12
+   MDC:{frontend=DotnetRoslynFrontEnd, msgId=-1, severity=LOG_STATUS, step=SRC_PARSE} NDC:[]
+[2018-11-19 20:35:19.690 INFO  ]
+ASP.NET Translation: Translating C:\Users\fortify\source\repos\visualStudiotips\DemoDotNet3\DemoDotNet3\Global.asax
+   logger:com.fortify.frontend.translator.dotnet.DotNetTranslator marker:DEV thread:sourceanalyzer-12
+   MDC:{frontend=DotnetRoslynFrontEnd, msgId=-1, severity=LOG_STATUS, step=SRC_PARSE} NDC:[]
+[2018-11-19 20:35:23.581 INFO  ]
+Translating 13 C# files.
+   logger:com.fortify.sca.frontend.DotnetRoslynFrontEnd marker:DEV thread:sourceanalyzer-12
+   MDC:{frontend=DotnetRoslynFrontEnd, msgId=-1, severity=LOG_STATUS, step=SRC_PARSE} NDC:[]
+[2018-11-19 20:35:30.597 INFO  ]
+Front End complete
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=LOG_STATUS, step=SRC_PARSE} NDC:[]
+[2018-11-19 20:35:30.957 INFO  ]
+message id statistics:
+   id:        -1 total:        36 totalSuppressedCount:         0 scope:[]
+
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE, step=SRC_PARSE} NDC:[]
+[2018-11-19 20:35:30.957 INFO  ]
+logger:null  count:13
+   level:INFO count:13
+logger:com.fortify.messaging.MessageSuppressor  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LevelAdjuster  count:1
+   level:INFO count:1
+logger:com.fortify.frontend.translator.dotnet.DotNetTranslator  count:2
+   level:INFO count:2
+logger:com.fortify.sca.frontend.DotnetRoslynFrontEnd  count:1
+   level:INFO count:1
+logger:com.fortify.sca.cmd.CommandLine  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LoggerFactory  count:1
+   level:INFO count:1
+logger:com.fortify.sca.Main  count:3
+   level:INFO count:3
+logger:com.fortify.sca.frontend.FrontEndSession  count:1
+   level:INFO count:1
+
+   logger:com.fortify.logging.LoggerStats marker:DEV thread:sourceanalyzer-12
+   MDC:{msgId=-1, severity=NONE, step=SRC_PARSE} NDC:[]
